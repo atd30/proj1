@@ -17,6 +17,8 @@ damage_path, it needed a parameter passed in that was a trainer id
 # Question 5: Explain how putting this line "flash[:error] = @pokemon.errors.full_messages.to_sentence" shows error messages on your form.
 If the pokemon object has any errors, they'll be added to the flash hash with the key :error, which will then be displayed when application.html.erb renders. 
 
+https://github.com/atd30/proj1
+
 # Give us feedback on the project and decal below!
 
 # Extra credit: Link your Heroku deployed app
